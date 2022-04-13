@@ -1,0 +1,15 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.movies {
+    border: 1px solid red;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+    /* max-width: 833px;
+    overflow: hidden; */
+}

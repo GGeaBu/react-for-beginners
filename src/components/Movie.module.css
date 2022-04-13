@@ -8,13 +8,13 @@
     align-items: center;
     min-height: 350px;
     min-width: 800px;
-    max-width: 1000px;
+    max-width: 800px;
+    /* transition: all 0.3s ease-out; */
 }
 
-.movie:hover {
+/* .movie:hover {
     transform: translate(15px, -15px);
-    animation: 3s ease-in;
-}
+} */
 
 .movie_scripts {
     display: flex;
@@ -27,6 +27,11 @@
     width: 200px;
     height: 300px;
     box-shadow: 8px 13px 20px -5px black;
+    transition: all 0.3s ease-out;
+}
+
+.movie_img:hover {
+    transform: translate(5px, -10px);
 }
 
 .movie_title {
@@ -68,10 +73,10 @@
     text-align: center;
 }
 
-.movie_rating_stars {
+/* .movie_rating_stars {
     font-size: 22px;
     font-weight: bold;
-}
+} */
 
 .movie_rating_stars span {
     margin-left: 20px;
