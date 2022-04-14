@@ -1,10 +1,21 @@
 import { useState, useEffect } from "react";
 import Movie from "../components/Movie";
 import style from "./Home.module.css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 function Home() {
     const [loading, setLoading] = useState(true);
     const [movies, setMovies] = useState([]);
+    const settings = {
+      arrows: true,
+      dots: true,
+      Infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    };
     const getMovies = async() => {
       const json = await (
         await fetch(
@@ -22,7 +33,7 @@ function Home() {
         {loading ? (
           <h1>Loading...</h1>
         ) : (
-          <div className={style.movies}>
+          <Slider {...settings}>
             {movies.map(movie => (
               <Movie 
                 key={movie.id}
@@ -34,7 +45,7 @@ function Home() {
                 rating={movie.rating}
               />
             ))}
-          </div>
+          </Slider>
         )}
       </div>
     );

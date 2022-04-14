@@ -1,6 +1,6 @@
 import propTypes from "prop-types";
 import { Link } from "react-router-dom";
-// import StarRatings from "./react-star-ratings";
+import StarRatings from "react-star-ratings";
 import style from "./Movie.module.css";
 import { useState } from "react";
 
@@ -23,11 +23,11 @@ function Movie({id, coverImg, title, summary, genres, rating}) {
             ))}
           </ul>
           <div className={style.movie_rating_stars}>
-            {/* <StarRatings 
+            <StarRatings 
               rating={rating/2}
               starRatedColor="rgb(247, 247, 5)"
               numberOfStars={5}
-            /> */}
+            />
             <span>({rating})</span>
           </div>
           <p 

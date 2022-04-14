@@ -1,15 +1,24 @@
-.container {
+/* .container {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    background-color: green;
 }
 
 .movies {
-    border: 1px solid red;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 70%;
-    /* max-width: 833px;
-    overflow: hidden; */
+    background-color: blanchedalmond;
+    width: 100%;
+} */
+
+
+.container {
+    background-color: rgb(76, 76, 95, 0.5);
+    position: relative;
+    padding: 50px;
+    top: 100px;
 }

@@ -1,6 +1,7 @@
 .movie {
-    border: 1px solid black;
-    box-shadow: 5px 5px 15px black;
+    position: relative;
+    box-shadow: 5px 5px 12px #6d6d6d;
+    border-radius: 15px 15px;
     margin: 20px 16px;
     padding: 12px;
     display: flex;
@@ -8,7 +9,8 @@
     align-items: center;
     min-height: 350px;
     min-width: 800px;
-    max-width: 800px;
+    max-width: 1000px;
+    background-color: #263238;
     /* transition: all 0.3s ease-out; */
 }
 
@@ -26,12 +28,12 @@
     margin-right: 30px;
     width: 200px;
     height: 300px;
-    box-shadow: 8px 13px 20px -5px black;
     transition: all 0.3s ease-out;
 }
 
 .movie_img:hover {
     transform: translate(5px, -10px);
+    box-shadow: 8px 13px 20px -5px #e0f7fa;
 }
 
 .movie_title {
@@ -41,7 +43,7 @@
 }
 
 .movie_title a {
-    color: black;
+    color: #f5f5f5;
 }
 
 .movie_title a:hover {
@@ -59,7 +61,7 @@
 .movie_genres span {
     font-size: 18px;
     font-weight: bold;
-    color: black
+    color: #f5f5f5;
 }
 
 .movie_genres li {
@@ -73,10 +75,10 @@
     text-align: center;
 }
 
-/* .movie_rating_stars {
+.movie_rating_stars {
     font-size: 22px;
     font-weight: bold;
-} */
+}
 
 .movie_rating_stars span {
     margin-left: 20px;
@@ -84,9 +86,10 @@
 }
 
 .movie_summary {
+    color: #f5f5f5;
     padding: 0 24px
 }
 
 .movie_summary:hover {
-    background-color: rgb(230, 230, 230, 0.75);
+    background-color: rgba(230, 230, 230, 0.05);
 }
