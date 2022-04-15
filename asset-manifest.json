@@ -1,10 +1,17 @@
 {
   "files": {
-    "main.js": "/react-for-beginners/static/js/main.c2a25425.js",
+    "main.css": "/react-for-beginners/static/css/main.417b41a5.css",
+    "main.js": "/react-for-beginners/static/js/main.e5e6539b.js",
+    "static/media/slick.svg": "/react-for-beginners/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/react-for-beginners/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/react-for-beginners/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/react-for-beginners/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/react-for-beginners/index.html",
-    "main.c2a25425.js.map": "/react-for-beginners/static/js/main.c2a25425.js.map"
+    "main.417b41a5.css.map": "/react-for-beginners/static/css/main.417b41a5.css.map",
+    "main.e5e6539b.js.map": "/react-for-beginners/static/js/main.e5e6539b.js.map"
   },
   "entrypoints": [
-    "static/js/main.c2a25425.js"
+    "static/css/main.417b41a5.css",
+    "static/js/main.e5e6539b.js"
   ]
 }
